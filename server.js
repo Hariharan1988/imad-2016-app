@@ -5,7 +5,9 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 //Java Script page to make one Common HTML Page
-var About={
+var profiles={
+ About:{
+     
  title:'About Me|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
@@ -21,7 +23,43 @@ var About={
  
  
     
+},
+MyEducation:{
+    title:'My Education|Hariharan.V',
+heading:'About My Profile',
+ Date:'Sep 23,2016',
+ content:  `  <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. </p>
+            
+            
+            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>
+            
+            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>`
+    
+},
+MyExperience:{
+    title:'My Experience|Hariharan.V',
+ heading:'About My Profile',
+ Date:'Sep 23,2016',
+ content:  `  <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. </p>
+            
+            
+            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>
+            
+            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>`
+},
+MyCertification:{
+    title:'My Certification|Hariharan.V',
+ heading:'About My Profile',
+ Date:'Sep 23,2016',
+ content:  `  <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. </p>
+            
+            
+            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>
+            
+            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>`
+}
 };
+
     
     function CreateTemplate(data){
         
@@ -83,8 +121,12 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/article-one',function (req,res){
-res.send(CreateTemplate(About));
+app.get('/ProfileofHari',function (req,res){
+    //ProfileofHari= The content of First Page (About)
+    //profile(ProfileofHari)=The content object of About
+    var ProfileofHari=req.params.ProfileofHari; 
+    //Index in the profile object
+res.send(CreateTemplate(profile[ProfileofHari]));
 });
 app.get('/article-two',function (req,res){
 res.sendFile(path.join(__dirname, 'ui', 'article-two.html'));
