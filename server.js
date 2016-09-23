@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 //Java Script page to make one Common HTML Page
 var profiles={
- About:{
+ 'About':{
      
  title:'About Me|Hariharan.V',
  heading:'About My Profile',
@@ -24,7 +24,7 @@ var profiles={
  
     
 },
-MyEducation:{
+'MyEducation':{
     title:'My Education|Hariharan.V',
 heading:'About My Profile',
  Date:'Sep 23,2016',
@@ -36,7 +36,7 @@ heading:'About My Profile',
             <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>`
     
 },
-MyExperience:{
+'MyExperience':{
     title:'My Experience|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
@@ -47,7 +47,7 @@ MyExperience:{
             
             <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>`
 },
-MyCertification:{
+'MyCertification':{
     title:'My Certification|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
@@ -121,7 +121,7 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
-app.get('/ProfileofHari', function (req,res){
+app.get('/:ProfileofHari', function (req,res){
     //ProfileofHari= The content of First Page (About)
     //profile(ProfileofHari)=The content object of About
     var ProfileofHari=req.params.ProfileofHari; 
