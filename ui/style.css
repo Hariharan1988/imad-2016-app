@@ -1,8 +1,20 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+
+    .container {
+          
+         padding-top: 80px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-bottom:  auto;
+    max-width: 800px;
+    
+    color: grey;
+    
+    font-family:san-serif;
 }
+
+    
+
 
 .center {
     text-align: center;
@@ -19,4 +31,5 @@ body {
 .img-medium {
     height: 200px;
 }
+
 
