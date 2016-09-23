@@ -126,7 +126,7 @@ app.get('/ProfileofHari',function (req,res){
     //profile(ProfileofHari)=The content object of About
     var ProfileofHari=req.params.ProfileofHari; 
     //Index in the profile object
-res.send(CreateTemplate(profile[ProfileofHari]));
+res.send(CreateTemplate(profiles[ProfileofHari]));
 });
 
 app.get('/ui/style.css', function (req, res) {
