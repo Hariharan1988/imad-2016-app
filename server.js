@@ -67,6 +67,7 @@ heading:'About My Profile',
         var Date=data.Date;
         var heading =data.heading;
         var content=data.content;
+        
    var htmlTemplate=
    
        
@@ -88,6 +89,11 @@ heading:'About My Profile',
         
     </head>
     <body>
+         function convertDate(inputFormat) {
+  function pad(s) { return (s < 10) ? '0' + s : s; }
+  var d = new Date(inputFormat);
+  return [pad(d.getDate()), pad(d.getMonth()+1), d.getFullYear()].join('/');
+}
         <div class="container">
             <div class="row">
             
@@ -105,11 +111,7 @@ heading:'About My Profile',
                 
             </h3>
         <div>
-        function convertDate(inputFormat) {
-  function pad(s) { return (s < 10) ? '0' + s : s; }
-  var d = new Date(inputFormat);
-  return [pad(d.getDate()), pad(d.getMonth()+1), d.getFullYear()].join('/');
-}
+   
             ${Date}
            
            
