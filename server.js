@@ -89,12 +89,7 @@ heading:'About My Profile',
         
     </head>
     <body>
-         function convertDate(inputFormat) {
-  function pad(s) { return (s < 10) ? '0' + s : s; }
-  var d = new Date(inputFormat);
-  return [pad(d.getDate()), pad(d.getMonth()+1), d.getFullYear()].join('/');
-}
-        <div class="container">
+         <div class="container">
             <div class="row">
             
              <a href='/'> Home</a>|
