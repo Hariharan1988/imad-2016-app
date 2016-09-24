@@ -82,7 +82,7 @@ heading:'About My Profile',
           
       </title> 
       
-       <meta name="viewport" content="width-device-width,initial-scale=1"/>
+       <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
        <link href="/ui/style.css" rel="stylesheet" />
       
         
@@ -90,10 +90,12 @@ heading:'About My Profile',
     <body>
         <div class="container">
             <div>
-            
+            <a href='/'> My Education</a>
+            <a href='/'> My Experience</a>
+              <a href='/'> My Certification</a>
             <a href='/'> Home</a>
-          </div>  
-       
+            <a href='/'> About</a>
+             <a href='/'> Home</a>
         <hr/>
          <h3>
          ${heading}
