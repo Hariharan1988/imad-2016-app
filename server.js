@@ -90,11 +90,12 @@ heading:'About My Profile',
     <body>
         <div class="container">
             <div class="row">
+            <ul>
              <a href='/'> Home</a>
                <li> <a href="MyEducation">My Education</a></li>
         <li> <a href="MyExperience">My Experience</a></li>
         <li> <a href="MyCertification">My Certification</a></li>
-            
+            </ul>
         
         <hr/>
          <h3>
