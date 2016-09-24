@@ -18,7 +18,7 @@ Handling SLA and escalations from the client, make sure team is responding on ti
 Have offered Efficient Production Support for many live projects
 Proper Documentation of every activity that was performed during the project done by the team
  
- 
+ </p>`
  
  
  
@@ -28,12 +28,7 @@ Proper Documentation of every activity that was performed during the project don
     title:'My Education|Hariharan.V',
 heading:'About My Profile',
  Date:'Sep 23,2016',
- content:  `  <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. </p>
-            
-            
-            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>
-            
-            <p> This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content. This is a content.</p>`
+ content:  `  <p> </p>`
     
 },
 'MyExperience':{
