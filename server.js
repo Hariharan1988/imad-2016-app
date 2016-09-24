@@ -91,6 +91,9 @@ heading:'About My Profile',
         <div class="container">
             <div>
              <a href='/'> Home</a>
+               <li> <a href="MyEducation">My Education</a></li>
+        <li> <a href="MyExperience">My Experience</a></li>
+        <li> <a href="MyCertification">My Certification</a></li>
             
         
         <hr/>
