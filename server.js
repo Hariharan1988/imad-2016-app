@@ -89,7 +89,7 @@ heading:'About My Profile',
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="row">
              <a href='/'> Home</a>
                <li> <a href="MyEducation">My Education</a></li>
         <li> <a href="MyExperience">My Experience</a></li>
