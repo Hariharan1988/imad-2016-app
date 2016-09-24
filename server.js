@@ -35,8 +35,8 @@ heading:'About My Profile',
     title:'My Experience|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
- content:`<p> </p>` PPLICATION SUPPORT EXECUTIVE (F&A)  WIPRO  CHENNAI, INDIA  AUG 15 
-},UG 16
+ content:`<p>APPLICATION SUPPORT EXECUTIVE (F&A)  WIPRO  CHENNAI, INDIA  AUG 15  
+UG 16
  Testing frontend applications and troubleshooting
  Finding bugs in the application and resolving it by coordinating with respective internal and external stakeholders
  Coordinating with operations /Agents and as a POC providing day to day production support
@@ -77,6 +77,8 @@ WEBSITE DESIGNER (TRAINEE)  INNOVATA TECHNOLOGIES  CHENNAI, INDIA  MAY 09
  Maintain documents in repository like SVN
 Experience
 TECHNICAL SUPPORT  SERVION GLOBAL SOLUTIONS  CHENNAI, INDIA  APR 14 
+</p>` 
+},
 'MyCertification':{
     title:'My Certification|Hariharan.V',
  heading:'About My Profile',
