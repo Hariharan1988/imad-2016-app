@@ -90,12 +90,13 @@ heading:'About My Profile',
     <body>
         <div class="container">
             <div>
+             <a href='/'> Home</a>
+            <a href='/'> About</a>
             <a href='/'> My Education</a>
             <a href='/'> My Experience</a>
               <a href='/'> My Certification</a>
-            <a href='/'> Home</a>
-            <a href='/'> About</a>
-             <a href='/'> Home</a>
+           
+        
         <hr/>
          <h3>
          ${heading}
