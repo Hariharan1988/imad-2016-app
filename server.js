@@ -91,12 +91,12 @@ heading:'About My Profile',
         <div class="container">
             <div class="row">
             
-             <a href='/'> Home</a>
-             <ul>
-               <li> <a href="MyEducation">My Education</a></li>
-        <li> <a href="MyExperience">My Experience</a></li>
-        <li> <a href="MyCertification">My Certification</a></li>
-            </ul>
+             <a href='/'> Home</a>|
+             
+            <a href="MyEducation">My Education</a>|
+         <a href="MyExperience">My Experience</a>|
+         <a href="MyCertification">My Certification</a>|
+           
         
         <hr/>
          <h3>
