@@ -30,7 +30,7 @@ Proper Documentation of every activity that was performed during the project don
 heading:'About My Profile',
  Date:'Sep 23,2016',
  content: `<p>
- <h3 class="text-center thin" > Reason to contact Us?  </h3>
+ <h3 class="text-center thin" > My Education  </h3>
 			
 			<div class="row">
 			
@@ -61,7 +61,8 @@ heading:'About My Profile',
 	
 		</div>
  
- 
+ </div>
+ </div>
  
  
  
