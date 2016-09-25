@@ -29,7 +29,38 @@ Proper Documentation of every activity that was performed during the project don
     title:'My Education|Hariharan.V',
 heading:'About My Profile',
  Date:'Sep 23,2016',
- content:  `  <p> </p>`
+ content:  `  <p>
+ <div class="row">
+			
+				<div class="col-md-3 col-sm-6 highlight" style="background-color:yellow;">
+					<div class="h-caption"><h4><u>Cost Effective </h4></u></div>
+					<div class="h-body text-center">
+						<p>Less price and good quality is our first motto. We need our customer satisfaction as a first thing, so always we think about our  customer first  and help them do  their business better  </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight"style="background-color:pink;">
+					<div class="h-caption"><h4><u>Innovation</h4></u></div>
+					<div class="h-body text-center">
+						<p>New ideas and adapting to new technologies will reduce the bugs  in the system and make system more productivity. We always keep adapting to new technologies and make use of it   </p>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 highlight"style="background-color:orange;">
+					<div class="h-caption"><h4><u>support</h4></u></div>
+					<div class="h-body text-center">
+						<p>After delivering a product we always support our customer and give gurantee to the product at no cost. Customer support is always maintained through our technical person 24/7 </p>
+	</div>
+	</div>
+		<div class="col-md-3 col-sm-6 highlight"style="background-color: violet;">
+					<div class="h-caption"><h4><u>Billable</h4></u></div>
+					<div class="h-body text-center">
+						<p>All our services which we do are billable with proper timesheet of resources used for the project. Hence there is nothing to hide from our side</p>
+	</div>
+	</div>
+	
+		</div>
+ 
+ 
+ </p>`
     
 },
 'MyExperience':{
