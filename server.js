@@ -29,13 +29,13 @@ Proper Documentation of every activity that was performed during the project don
     title:'My Education|Hariharan.V',
 heading:'About My Profile',
  Date:'Sep 23,2016',
- content:  `  <p>
+ content:  
  <div class="row">
 			
 				<div class="col-md-3 col-sm-6 highlight" style="background-color:yellow;">
-					<div class="h-caption"><h4><u>Cost Effective </h4></u></div>
+				<div class="h-caption"> <h4> <u> Cost Effective </h4> </u> 
 					<div class="h-body text-center">
-						<p>Less price and good quality is our first motto. We need our customer satisfaction as a first thing, so always we think about our  customer first  and help them do  their business better  </p>
+						`<p>Less price and good quality is our first motto. We need our customer satisfaction as a first thing, so always we think about our  customer first  and help them do  their business better  </p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight"style="background-color:pink;">
@@ -58,9 +58,13 @@ heading:'About My Profile',
 	</div>
 	
 		</div>
+		</div>
+		</div>
+		</div>
+		</div>
  
  
- </p>`
+
     
 },
 'MyExperience':{
