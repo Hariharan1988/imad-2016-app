@@ -11,7 +11,8 @@ var profiles={
  title:'About Me|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
- content:  `  <p> Having 3 years experience with 2 years in areas of Application, Technical, Business, Customer Support and Project Management
+ content:  `  <p> 
+ Having 3 years experience with 2 years in areas of Application, Technical, Business, Customer Support and Project Management
 Hands-on Experience in Testing and Troubleshooting with the experience of working on different tools like Issue Tracker, Team Forge, BugZilla
 Having Professional, Effective Client Communication with Respective internal team on ETL when raising, reporting and handling issues, bugs and resolving them within the given deadline
 Handling SLA and escalations from the client, make sure team is responding on time
