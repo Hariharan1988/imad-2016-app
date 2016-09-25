@@ -60,9 +60,7 @@ heading:'About My Profile',
 		</div>
 		</div>
 		</div>
-		</div>
-		</div>
- 
+	
  
 
     
@@ -71,7 +69,7 @@ heading:'About My Profile',
     title:'My Experience|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
- content:`<p>
+ content:
 <b>APPLICATION SUPPORT EXECUTIVE (F&A) WIPRO CHENNAI, INDIA AUG ’15 – AUG ‘16</b>
 <p>•	Testing frontend applications and troubleshooting </p>
 <p>•	Finding bugs in the application and resolving it by coordinating with respective internal and external stakeholders</p>       
@@ -119,7 +117,7 @@ heading:'About My Profile',
 
 
 
-</p>` 
+ 
 },
 'MyCertification':{
     title:'My Certification|Hariharan.V',
