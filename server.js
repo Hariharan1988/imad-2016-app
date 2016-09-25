@@ -35,27 +35,33 @@ heading:'About My Profile',
 			<div class="row">
 			
 				<div class="col-md-3 col-sm-6 highlight" style="background-color:yellow;">
-					<div class="h-caption"><h4><u>Cost Effective </h4></u></div>
+					<div class="h-caption"><h4><u>Masters in Computer Application,St. Josephs College of Engg & Tech
+</h4></u></div>
 					<div class="h-body text-center">
-						<p>Less price and good quality is our first motto. We need our customer satisfaction as a first thing, so always we think about our  customer first  and help them do  their business better  </p>
+						<p>Anna University,Chennai India (2010-2013)-CGPA: 6.11
+
+ 
+ </p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight"style="background-color:pink;">
-					<div class="h-caption"><h4><u>Innovation</h4></u></div>
+					<div class="h-caption"><h4><u>Bachelors in Computer Application,DG Vaishnav College
+</h4></u></div>
 					<div class="h-body text-center">
-						<p>New ideas and adapting to new technologies will reduce the bugs  in the system and make system more productivity. We always keep adapting to new technologies and make use of it   </p>
+						<p>University of Madras Chennai, India(2006-2009)-55% 
+
+
+  </p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight"style="background-color:orange;">
-					<div class="h-caption"><h4><u>support</h4></u></div>
+					<div class="h-caption"><h4><u>SSLC</h4></u></div>
 					<div class="h-body text-center">
-						<p>After delivering a product we always support our customer and give gurantee to the product at no cost. Customer support is always maintained through our technical person 24/7 </p>
-	</div>
-	</div>
-		<div class="col-md-3 col-sm-6 highlight"style="background-color: violet;">
-					<div class="h-caption"><h4><u>Billable</h4></u></div>
-					<div class="h-body text-center">
-						<p>All our services which we do are billable with proper timesheet of resources used for the project. Hence there is nothing to hide from our side</p>
+						<p>Matriculation Chennai, India (2006)-72%
+
+
+
+ </p>
 	</div>
 	</div>
 	
@@ -64,7 +70,7 @@ heading:'About My Profile',
  </div>
  </div>
  
- 
+ </div>
  
  
  
