@@ -69,7 +69,7 @@ heading:'About My Profile',
  Date:'Sep 23,2016',
  content:`<p>
 <b>APPLICATION SUPPORT EXECUTIVE (F&A) WIPRO CHENNAI, INDIA AUG ’15 – AUG ‘16</b>
-<p•	Testing frontend applications and troubleshooting </p>
+<p>•	Testing frontend applications and troubleshooting </p>
 <p>•	Finding bugs in the application and resolving it by coordinating with respective internal and external stakeholders</p>       
 <p>•	 Coordinating with operations /Agents and as a POC providing day to day production support </p>
 <p>•	 Having periodic meeting with client via chat/email/phone and communication precisely about the update </p>
