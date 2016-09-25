@@ -231,7 +231,7 @@ res.send(CreateTemplate(profiles[ProfileofHari]));
 });
 
 app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
+  res.sendFile(path.join(__dirname, 'ui', 'main.css'));
 });
 
 app.get('/ui/Hariharan.png', function (req, res) {
