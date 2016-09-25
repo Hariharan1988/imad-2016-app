@@ -29,13 +29,15 @@ Proper Documentation of every activity that was performed during the project don
     title:'My Education|Hariharan.V',
 heading:'About My Profile',
  Date:'Sep 23,2016',
- content:  
- <div class="row">
+ content: `<p>
+ <h3 class="text-center thin" > Reason to contact Us?  </h3>
+			
+			<div class="row">
 			
 				<div class="col-md-3 col-sm-6 highlight" style="background-color:yellow;">
-				<div class="h-caption"> <h4> <u> Cost Effective </h4> </u> 
+					<div class="h-caption"><h4><u>Cost Effective </h4></u></div>
 					<div class="h-body text-center">
-						`<p>Less price and good quality is our first motto. We need our customer satisfaction as a first thing, so always we think about our  customer first  and help them do  their business better  </p>
+						<p>Less price and good quality is our first motto. We need our customer satisfaction as a first thing, so always we think about our  customer first  and help them do  their business better  </p>
 					</div>
 				</div>
 				<div class="col-md-3 col-sm-6 highlight"style="background-color:pink;">
@@ -58,8 +60,20 @@ heading:'About My Profile',
 	</div>
 	
 		</div>
-		</div>
-		</div>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </p>`
+ 
+		
+	
+ 
+ 
 	
  
 
@@ -69,8 +83,8 @@ heading:'About My Profile',
     title:'My Experience|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
- content:
-<b>APPLICATION SUPPORT EXECUTIVE (F&A) WIPRO CHENNAI, INDIA AUG ’15 – AUG ‘16</b>
+ content:`<p></p>
+<b> APPLICATION SUPPORT EXECUTIVE (F&A) WIPRO CHENNAI, INDIA AUG ’15 – AUG ‘16 </b>
 <p>•	Testing frontend applications and troubleshooting </p>
 <p>•	Finding bugs in the application and resolving it by coordinating with respective internal and external stakeholders</p>       
 <p>•	 Coordinating with operations /Agents and as a POC providing day to day production support </p>
@@ -113,7 +127,7 @@ heading:'About My Profile',
 <p>•	Assisting in creating web templates for clients using ASP.NET </p>
 <p>•	Coordinating with the team and the clients </p>
 <p>•	 Assisting in bringing out an effective website as desired by the clients</p> 
-<p>•	Handling daily reports and updates </p>
+<p>•	Handling daily reports and updates </p>`
 
 
 
@@ -124,12 +138,13 @@ heading:'About My Profile',
  heading:'About My Profile',
  Date:'Sep 23,2016',
  content:  `  <p> 
- Basic Presentation Skills Certification from <b>Wipro</b>
- Business and Professional Etiquette Certification from <b>Wipro</b>
- Skill Development at <b>Dr.Reddys Foundation (LAB-S)</b>
- Dotnet Course from <b> Greens Technologies</b>
- Website Designing using <b>ASP.NET, HTML</b>
- MS Office Packages (MS Excel and MS Word).</p>`
+ <p>Basic Presentation Skills Certification from <b>Wipro</p></b>
+ <p>Business and Professional Etiquette Certification from <b>Wipro</p></b>
+<p> Skill Development at <b>Dr.Reddys Foundation (LAB-S)</p></b>
+<p>Dotnet Course from <b> Greens Technologies</p></b>
+<p> Website Designing using <b>ASP.NET, HTML</p></b>
+ <p>MS Office Packages (MS Excel and MS Word).</p>
+ </p>`
 }
 };
 
