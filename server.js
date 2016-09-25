@@ -87,7 +87,7 @@ heading:'About My Profile',
     
 },
 'MyExperience':{
-    title:'My Experience|Hariharan.V',
+    title: 'My Experience|Hariharan.V',
  heading:'About My Profile',
  Date:'Sep 23,2016',
  content:`<p></p>
