@@ -5,6 +5,7 @@ var element=document.getElementById('Main_Text');
 var img=document.getElementById('Hari');
 
 var marginLeft=0;
+var marginRight=0;
 
 function MoveRight ()
 {
@@ -17,8 +18,22 @@ function MoveRight ()
 
 img.onclick=function(){
 
-var interval=setInterval (MoveRight , 50);
+var interval=setInterval (MoveRight , 50 );
 
+};
+
+function MoveLeft ()
+{
+ marginRight = marginRight + 1;
+ 
+ img.style.marginLeft=marginRight+ 'px';
+    
+    
+}
+
+img.onclick=function(){
+
+var interval=setInterval (MoveLeft , 50 );
 };
 //img.onclick=function(){ img.style.marginLeft='100px';
     
