@@ -225,6 +225,9 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 app.get('/', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'login.html'));
+});
+app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 //app.get('/:ProfileofHari', function (req,res){
