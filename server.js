@@ -156,69 +156,7 @@ heading:'About My Profile',
 };
 
     
-    function CreateTemplate(data){
-        
-        var title= data.title;
-        var Date=data.Date;
-        var heading =data.heading;
-        var content=data.content;
-        
-   var htmlTemplate=
-   
-       
-   
-   
-   `
-<html >
-    <head>
-      <title>
-     ${title}
-         
-          
-          
-      </title> 
-      
-       <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-       <link href="/ui/style.css" rel="stylesheet" />
-      
-        
-    </head>
-    <body>
-         <div class="container">
-            <div class="row">
-            
-             <a href='/'> Home</a>|
-             
-            <a href="MyEducation">My Education</a>|
-         <a href="MyExperience">My Experience</a>|
-         <a href="MyCertification">My Certification</a>|
-           
-        
-        <hr/>
-         <h3>
-         ${heading}
-               
-                
-            </h3>
-        <div>
-   
-            ${Date}
-           
-           
-        </div>
-        <div>
-            
-            
-            
-          ${content}
-        </div>
-       </div>  
-    </body>
-</html>
-`;
-return htmlTemplate;
-
-}
+   // Create tempate function to be placed here
 
 
 app.get('/ui/:index.html', function (req, res) {
@@ -230,12 +168,12 @@ app.get('/login.html', function (req, res) {
 app.get('/ui/profile.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
-app.get('/:ProfileofHari', function (req,res){
+//app.get('/:ProfileofHari', function (req,res){
     //ProfileofHari= The content of First Page (About)
     //profile(ProfileofHari)=The content object of About
     //var ProfileofHari=req.params.ProfileofHari; 
     //Index in the profile object
-res.send(CreateTemplate(profiles[ProfileofHari]));
+//res.send(CreateTemplate(profiles[ProfileofHari]));
 });
 
 app.get('/ui/style.css', function (req, res) {
