@@ -224,10 +224,10 @@ return htmlTemplate;
 app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));// Registration Page
 });
-app.get('/', function (req, res) {
+app.get('/login.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'login.html'));//Login Page
 });
-app.get('/', function (req, res) {
+app.get('/profile.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
 //app.get('/:ProfileofHari', function (req,res){
