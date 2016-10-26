@@ -1,0 +1,63 @@
+ function CreateTemplate(data){
+        
+        var title= data.title;
+        var Date=data.Date;
+        var heading =data.heading;
+        var content=data.content;
+        
+   var htmlTemplate=
+   
+       
+   
+   
+   `
+<html >
+    <head>
+      <title>
+     ${title}
+         
+          
+          
+      </title> 
+      
+       <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+       <link href="/ui/style.css" rel="stylesheet" />
+      
+        
+    </head>
+    <body>
+         <div class="container">
+            <div class="row">
+            
+             <!--<a href='/'> Home</a>|-->
+             
+           <!-- <a href="MyEducation">My Education</a>|-->
+        <!-- <a href="MyExperience">My Experience</a>|-->
+        <!-- <a href="MyCertification">My Certification</a>|-->
+           
+        
+        <hr/>
+         <h3>
+         ${heading}
+               
+                
+            </h3>
+        <div>
+   
+            ${Date}
+           
+           
+        </div>
+        <div>
+            
+            
+            
+          ${content}
+        </div>
+       </div>  
+    </body>
+</html>
+`;
+return htmlTemplate;
+
+}
