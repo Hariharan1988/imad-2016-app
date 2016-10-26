@@ -230,13 +230,13 @@ app.get('/ui/login.html', function (req, res) {
 app.get('/ui/profile.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'profile.html'));
 });
-//app.get('/:ProfileofHari', function (req,res){
+app.get('/:ProfileofHari', function (req,res){
     //ProfileofHari= The content of First Page (About)
     //profile(ProfileofHari)=The content object of About
     //var ProfileofHari=req.params.ProfileofHari; 
     //Index in the profile object
-//res.send(CreateTemplate(profiles[ProfileofHari]));
-//});
+res.send(CreateTemplate(profiles[ProfileofHari]));
+});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
