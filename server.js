@@ -174,7 +174,7 @@ app.get('/ui/profile.html', function (req, res) {
     //var ProfileofHari=req.params.ProfileofHari; 
     //Index in the profile object
 //res.send(CreateTemplate(profiles[ProfileofHari]));
-});
+//});
 
 app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
