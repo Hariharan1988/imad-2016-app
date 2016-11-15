@@ -159,9 +159,19 @@ heading:'About My Profile',
    // Create tempate function to be placed here
 
 
-app.get('/ui/index.html', function (req, res) {
+app.get('/:index.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));// Registration Page
 });
+app.get('/ui/style2.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'style2.css'));
+  });
+  app.get('/ui/animate.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'animate.css'));
+});
+ app.get('/ui/demo.css', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', 'demo.css'));
+});
+
 //app.get('/login.html', function (req, res) {
  // res.sendFile(path.join(__dirname, 'ui', 'login.html'));//Login Page
 //});
@@ -176,18 +186,16 @@ app.get('/profile.html', function (req, res) {
 //res.send(CreateTemplate(profiles[ProfileofHari]));
 //});
 
-app.get('/ui/style.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'style.css'));
-});
-app.get('/ui/main.js', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'main.js'));
-});
-app.get('/ui/bootstrap.css', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'bootstrap.css'));
-});
-app.get('/ui/Hariharan.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'Hariharan.png'));
-});
+
+//app.get('/ui/main.js', function (req, res) {
+  //res.sendFile(path.join(__dirname, 'ui', 'main.js'));
+//});
+//app.get('/ui/bootstrap.css', function (req, res) {
+  //res.sendFile(path.join(__dirname, 'ui', 'bootstrap.css'));
+//});
+//app.get('/ui/Hariharan.png', function (req, res) {
+ // res.sendFile(path.join(__dirname, 'ui', 'Hariharan.png'));
+//});
 
 
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
