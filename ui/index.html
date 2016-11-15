@@ -1,106 +1,135 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6 lt8"> <![endif]-->
+<!--[if IE 7 ]>    <html lang="en" class="no-js ie7 lt8"> <![endif]-->
+<!--[if IE 8 ]>    <html lang="en" class="no-js ie8 lt8"> <![endif]-->
+<!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
-        <link href="ui/bootstrap.css" rel="stylesheet"/>
+        <meta charset="UTF-8" />
+        <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
         
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		
     </head>
-    <body>
-        <div class="center">
-            <img id='Hari' src="/ui/Hariharan.png" class=img-medium/>
+    <body onload='document.MyForm.email.focus()'> 
+        <div class="container">
+            <!-- Codrops top bar -->
+            <div class="codrops-top">
+                <a href="http://www.kumbhatech.in">
+                    <strong>&laquo; Homepage: </strong>Kumbha Technology
+                </a>
+				<!-- Reserved for future use
+                <span class="right">
+                    <a href="">
+                        <strong></strong>
+                    </a>-->
+                </span>
+                <div class="clr"></div>
+            </div><!--/ Codrops top bar -->
+            <header>
+                <h1>User Navigation Page <span>Beta</span></h1>
+				
+            </header>
+            <section>				
+                <div id="container_demo" >
+                    
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+					<a class="hiddenanchor" id="forgetpassword"></a>
+                    <div id="wrapper">
+                        <div id="login" class="animate form">
+                            <form  action="http://kumbhatech.esy.es/UserRegistration/Login.php" method="post" autocomplete="on"> 
+                                <h1>Log in</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"> Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping">Keep me logged in</label>
+								</p>
+                                <p class="login button"> 
+                                    <input type="submit" name="login" method="post" value="Login"  /> 
+								</p>
+                                <p class="change_link">
+									Not a member yet ?
+									<a href="#toregister" class="to_register">Join us</a>
+									
+								</p>
+								
+								
+                            </form>
+							<div id="FPassword" class="animate form">
+                            <form  action="mysuperscript.php" autocomplete="on"> 
+                                <h1>Forget Password</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u" > Your email or username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+								<p class="Forget button"> 
+									<input type="submit" value="Forget Password"/> 
+								</p>
+								
+								
+								 
+                                 </div>		
+							</form>
+                        </div>
+                                   
+                        <div id="register" class="animate form">
+                            <form  action="http://kumbhatech.esy.es/UserRegistration/register.php" method="post" name="MyForm" autocomplete="on"> 
+                                <h1> Sign up </h1> 
+								<?php
+                        if(isset($msg)){
+                         echo $msg;
+                           }
+                                ?>
+								 <p> 
+                                    <label for="usernamesignup" class="name" >Your Name</label>
+                                    <input id="usernamesignup" name="name" required="required" type="text" placeholder="Your name" />
+                                </p>
+                                <p> 
+                                    <label for="usernamesignup" class="uname" >Your username</label>
+                                    <input id="usernamesignup" name="username" required="required" type="text" placeholder="mysuperusername690" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail"  > Your email</label>
+                                    <input id="emailsignup" name="email"  required="required" type="email"  placeholder="mysupermail@gmail.com"/> 
+									
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" >Your password </label>
+                                    <input id="passwordsignup" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters"required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                
+                                <p class="signin button"> 
+									<input type="submit" name="register" method="post" value="Sign up"/> 
+									
+								</p>
+								
+								  <script src="email.js"/>
+                                <p class="change_link">  
+									Already a member ?
+									<a href="#tologin" class="to_register"> Go and log in </a>
+									
+									</p>
+									 
+								 						
+                            </form>
+							
+							
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
         </div>
-        <br>
-        <!-- container class is used to centered  the body of the browser with some decent width--> 
-        <div class="form">
-      
-      <ul class="tab-group">
-        <li class="tab active"><a href="#signup">Sign Up</a></li>
-        <li class="tab"><a href="#login">Log In</a></li>
-      </ul>
-      
-      <div class="tab-content">
-        <div id="signup">   
-          <h1>Sign Up for Free</h1>
-          
-          <form action="/" method="post">
-          
-          <div class="top-row">
-            <div class="field-wrap">
-              <label>
-                First Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off" />
-            </div>
-        
-            <div class="field-wrap">
-              <label>
-                Last Name<span class="req">*</span>
-              </label>
-              <input type="text" required autocomplete="off"/>
-            </div>
-          </div>
-
-          <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email" required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Set A Password<span class="req">*</span>
-            </label>
-            <input type="password" required autocomplete="off"/>
-          </div>
-          
-          <button type="submit" class="button button-block"> Get Started </button>
-          
-          </form>
-
-        </div>
-        
-        <div id="login">   
-          <h1>Welcome Back!</h1>
-          
-          <form action="/" method="post">
-          
-            <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email" required autocomplete="off"/>
-          </div>
-          
-          <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
-            <input type="password" required autocomplete="off"/>
-          </div>
-          
-          <p class="forgot"><a href="#">Forgot Password?</a></p>
-          
-          <button class="button button-block">Log In </button>
-         
-          
-          </form>
-
-        </div>
-        
-      </div><!-- tab-content -->
-      
-</div> <!-- /form -->
-        <div id='Main_Text' class="center text-big bold">
-         
-        </div>
-        <script>
-        alert ('Hi, Welcome to my site');
-        
-        
-        </script>
-        <script type="text/javascript" src="/ui/main.js">
-        
-        </script>
+		
     </body>
 </html>

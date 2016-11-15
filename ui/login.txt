@@ -1,0 +1,31 @@
+<?php
+ 
+
+
+ 
+
+if(isset($_POST['name']) && !empty($_POST['name']) AND isset($_POST['password']) && !empty($_POST['password'])){
+    $username = mysql_escape_string($_POST['username']);
+    $password = mysql_escape_string(md5($_POST['password']));
+                 
+    $search = mysql_query("SELECT username, password, active FROM KumbhaApp WHERE username='".$username."' AND password='".$password."' AND active='1'") or die(mysql_error()); 
+    $match  = mysql_num_rows($search);
+            }
+			if($match > 0){
+    echo "Login Complete! Thanks";
+    // Set cookie / Start Session / Start Download etc...
+}else{
+    echo "Login Failed! Please make sure that you enter the correct details and that you have activated your account.";
+}
+
+$ip = $_SERVER["REMOTE_ADDR"];
+
+mysqli_query($connection, "INSERT INTO KumbhaApp (	IP ,LastLogin) VALUES ('$ip',CURRENT_TIMESTAMP)");
+$result = mysqli_query("SELECT COUNT(*) FROM KumbhaApp  WHERE IP LIKE '$ip' AND LastLogin > (now() - interval 200 minute)");
+$count = mysqli_fetch_array($result,$ip, MYSQLI_NUM);
+
+if($count[0] > 3){
+  echo "Your are allowed 3 attempts in 3 Hours";
+}
+ 
+?>
