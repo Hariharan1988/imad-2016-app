@@ -159,7 +159,7 @@ heading:'About My Profile',
    // Create tempate function to be placed here
 
 
-app.get('/:index.html', function (req, res) {
+app.get('/index.html', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));// Registration Page
 });
 app.get('/ui/style2.css', function (req, res) {
